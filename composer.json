@@ -1,0 +1,20 @@
+{
+	"name": "phildier/aws-cert-tool",
+	"description": "tool to manage aws tls certificates",
+	"type": "library",
+	"license": "BSD",
+	"authors": [
+		{
+			"name": "Phil Dier",
+			"email": "phil@dier.us"
+		}
+	],
+	"require": {
+		"aws/aws-sdk-php": "^3.74"
+	},
+	"autoload":{
+		"psr-4":{
+			"PhilDier\\":"src/"
+		}
+	}
+}
